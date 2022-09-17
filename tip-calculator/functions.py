@@ -36,4 +36,4 @@ def convert_ratings_to_tip_rate(ratings: list, tip_rate_min: float, tip_rate_max
 
 def get_meal_cost():
     meal_cost = round(float(input("Type the subtotal cost of your meal here (do not include tax): ")), 2)
-    return meal_cost
+    return meal_cost 
